@@ -7,9 +7,9 @@ body{
 }
 
 #ball {
-    width: 20px;
-    height: 20px;
-    background-color: red;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(15, 15, 15);
     position: fixed;
     top: 20px;
     left: 52.5%;
@@ -17,8 +17,8 @@ body{
 }
 
 #rod1, #rod2 {
-    width: 200px;
-    height: 20px;
+    width: 250px;
+    height: 30px;
     position: fixed;
     left: 50%;
     border-radius: 25px;
@@ -28,11 +28,14 @@ body{
 }
 
 #rod1 {
-    background-color: blue;
+    background-color: rgb(255, 0, 179);
     top: 0px;    
 }
 
 #rod2 {
-    background-color: blueviolet;
+    background-color: rgb(226, 43, 156);
     bottom: 0px;
+}
+.container1{
+    display: flex;
 }
